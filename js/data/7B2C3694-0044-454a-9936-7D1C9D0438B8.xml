@@ -1,5 +1,5 @@
 tocTab[tocTab.length] = new Array("0.2.5:1", "", "Usuario final", "EARoot/EA2/EA5/EA47.html", "180.png", "8", "0", "", "Use Case diagram0","{3360DEDC-C86E-48c7-B12B-48217ADB1464}");
-tocTab[tocTab.length] = new Array("0.2.5:2", "", "CU-10 Suscribirse", "EARoot/EA2/EA5/EA50.html", "7.png", "E26", "0", "", "UseCase0","{FC810233-8EFD-4670-B6DB-DF49F1FAAB57}");
+tocTab[tocTab.length] = new Array("0.2.5:2", "", "CU-10 Suscribirse", "EARoot/EA2/EA5/EA50.html", "7.png", "E105", "0", "", "UseCase0","{6BF56637-F00A-47ac-8FB3-86B249D931A6}");
 tocTab[tocTab.length] = new Array("0.2.5:3", "", "CU-2 Editar perfil", "EARoot/EA2/EA5/EA51.html", "7.png", "E14", "0", "", "UseCase0","{5AD7C86B-CD82-4e1d-AB4A-477CFB78F4FD}");
 tocTab[tocTab.length] = new Array("0.2.5:4", "", "CU-3 Pago de tarifa con tarjeta de crédito", "EARoot/EA2/EA5/EA52.html", "7.png", "E15", "0", "", "UseCase0","{DBE8C08B-9F1F-40f1-B769-18DD4EE9EB9F}");
 tocTab[tocTab.length] = new Array("0.2.5:5", "", "CU-6 Proporcionar comentarios", "EARoot/EA2/EA5/EA53.html", "7.png", "E20", "0", "", "UseCase0","{FE9F1FA6-B0D4-4c55-A016-8269CAA31DF3}");

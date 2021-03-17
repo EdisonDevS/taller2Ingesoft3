@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">16/03/2021 12:52:30 p. m.</td>
+			<td class="ObjectDetailsValue">17/03/2021 4:51:38 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,12 +94,63 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="../EA11.html">Vista de escenarios</a>, <a href="EA47.html">Usuario final</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Este caso de uso ocurre cuando un suscriptor activo o un usuario no registrado se conecta al sistema para ver informaci&#243;n.&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Flujo básico</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario48" onclick="parent.toggleDiv('detailsDIVScenario48','DetailsImageScenario48')" />Details:
+							<div id="detailsDIVScenario48" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Flujo normal de la aplicaci&#243;n&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario48" onclick="parent.toggleDiv('stepDIVScenario48','StepImageScenario48')" />Steps:
+							<div id="stepDIVScenario48" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El sistema analiza la lista de contenido &quot;archivado&quot;. Para cualquier historia de más de 2 días, la historia se mueve de nuevo a la categoría general.&lt;br/&gt; <br />2. El sistema muestra anuncios publicitarios, categorías de contenido general e historias específicas para las que se han enviado páginas.&lt;br/&gt; <br />3. Suscriptor visualiza historias&lt;br/&gt; <br />4. Para cualquier historia paginada, las historias se marcan como vistas y se colocan en una categoría &quot;archivada&quot;.&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">El usuario no es un suscriptor registrado</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario50" onclick="parent.toggleDiv('detailsDIVScenario50','DetailsImageScenario50')" />Details:
+							<div id="detailsDIVScenario50" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El usuario no ha pagado la suscripci&#243;n&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario50" onclick="parent.toggleDiv('stepDIVScenario50','StepImageScenario50')" />Steps:
+							<div id="stepDIVScenario50" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El sistema muestra anuncios publicitarios y categorías de contenido general&lt;br/&gt; <br />2. El sistema brinda la opción para que el usuario se suscriba&lt;br/&gt; <br />3. Historias de visitas de usuarios&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
