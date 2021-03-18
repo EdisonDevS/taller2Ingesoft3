@@ -1,8 +1,9 @@
-tocTab[tocTab.length] = new Array("0.3.1.2:1", "", "Modelos", "EARoot/EA3/EA1/EA2/EA87.html", "175.png", "15", "0", "", "Logical diagram0","{94C6F47C-AFC9-464a-BF42-0189CBB5B9D2}");
-tocTab[tocTab.length] = new Array("0.3.1.2:2", "", "Anunciante", "EARoot/EA3/EA1/EA2/EA91.html", "5.png", "E32", "0", "", "Class0","{70D20D0E-E76F-4e17-967E-50E430569DE2}");
-tocTab[tocTab.length] = new Array("0.3.1.2:3", "", "Anuncio", "EARoot/EA3/EA1/EA2/EA92.html", "5.png", "E35", "0", "", "Class0","{581CABF5-A9AC-42a1-A481-6BB02F468D09}");
-tocTab[tocTab.length] = new Array("0.3.1.2:4", "", "Contenido", "EARoot/EA3/EA1/EA2/EA93.html", "5.png", "E33", "0", "", "Class0","{43D83E4C-C8F8-4ffa-ACDE-B5C0C2C93FC7}");
-tocTab[tocTab.length] = new Array("0.3.1.2:5", "", "Editor", "EARoot/EA3/EA1/EA2/EA94.html", "5.png", "E29", "0", "", "Class0","{83AF2F5E-A9F9-4371-86FE-382473250308}");
-tocTab[tocTab.length] = new Array("0.3.1.2:6", "", "Historia", "EARoot/EA3/EA1/EA2/EA95.html", "5.png", "E34", "0", "", "Class0","{C5903857-0004-431c-A889-17D436CCC498}");
-tocTab[tocTab.length] = new Array("0.3.1.2:7", "", "Suscriptor", "EARoot/EA3/EA1/EA2/EA96.html", "5.png", "E30", "0", "", "Class0","{FD1702C5-223B-4a72-B7C2-837974F92B74}");
-tocTab[tocTab.length] = new Array("0.3.1.2:8", "", "Usuario", "EARoot/EA3/EA1/EA2/EA97.html", "5.png", "E28", "0", "", "Class0","{F39E0148-5FE7-445b-8BA3-332DF9E5EAB8}");
+tocTab[tocTab.length] = new Array("0.3.1.2:1", "", "Modelos", "EARoot/EA3/EA1/EA2/EA86.html", "175.png", "15", "0", "", "Logical diagram0","{94C6F47C-AFC9-464a-BF42-0189CBB5B9D2}");
+tocTab[tocTab.length] = new Array("0.3.1.2:2", "", "Anunciante", "EARoot/EA3/EA1/EA2/EA90.html", "5.png", "E32", "0", "", "Class0","{70D20D0E-E76F-4e17-967E-50E430569DE2}");
+tocTab[tocTab.length] = new Array("0.3.1.2:3", "", "Anuncio", "EARoot/EA3/EA1/EA2/EA91.html", "5.png", "E35", "0", "", "Class0","{581CABF5-A9AC-42a1-A481-6BB02F468D09}");
+tocTab[tocTab.length] = new Array("0.3.1.2:4", "", "Comentario", "EARoot/EA3/EA1/EA2/EA92.html", "5.png", "E108", "0", "", "Class0","{7E00E3B3-8DD1-4c04-851C-EDCE9C150B23}");
+tocTab[tocTab.length] = new Array("0.3.1.2:5", "", "Contenido", "EARoot/EA3/EA1/EA2/EA93.html", "5.png", "E33", "0", "", "Class0","{43D83E4C-C8F8-4ffa-ACDE-B5C0C2C93FC7}");
+tocTab[tocTab.length] = new Array("0.3.1.2:6", "", "Editor", "EARoot/EA3/EA1/EA2/EA94.html", "5.png", "E29", "0", "", "Class0","{83AF2F5E-A9F9-4371-86FE-382473250308}");
+tocTab[tocTab.length] = new Array("0.3.1.2:7", "", "Historia", "EARoot/EA3/EA1/EA2/EA95.html", "5.png", "E34", "0", "", "Class0","{C5903857-0004-431c-A889-17D436CCC498}");
+tocTab[tocTab.length] = new Array("0.3.1.2:8", "", "Suscriptor", "EARoot/EA3/EA1/EA2/EA96.html", "5.png", "E30", "0", "", "Class0","{FD1702C5-223B-4a72-B7C2-837974F92B74}");
+tocTab[tocTab.length] = new Array("0.3.1.2:9", "", "Usuario", "EARoot/EA3/EA1/EA2/EA97.html", "5.png", "E28", "0", "", "Class0","{F39E0148-5FE7-445b-8BA3-332DF9E5EAB8}");
