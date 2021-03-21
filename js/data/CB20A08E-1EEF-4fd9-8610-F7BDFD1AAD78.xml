@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.1.1.3:1", "", "Routers", "EARoot/EA3/EA1/EA1/EA3/EA118.html", "175.png", "22", "0", "", "Logical diagram0","{841B2C61-2A77-415e-AE23-CEF226258918}");
+tocTab[tocTab.length] = new Array("0.3.1.1.3:2", "", "AnuncianteRouter", "EARoot/EA3/EA1/EA1/EA3/EA121.html", "5.png", "E130", "0", "", "Class0","{0D79E2A3-0533-4055-A4A5-4BD5FC388FBF}");
+tocTab[tocTab.length] = new Array("0.3.1.1.3:3", "", "EditorRouter", "EARoot/EA3/EA1/EA1/EA3/EA122.html", "5.png", "E128", "0", "", "Class0","{C1275547-425D-4e3c-9B1F-78629997198E}");
+tocTab[tocTab.length] = new Array("0.3.1.1.3:4", "", "SoporteRouter", "EARoot/EA3/EA1/EA1/EA3/EA123.html", "5.png", "E150", "0", "", "Class0","{668762FD-C903-4afc-97F3-4D5C59AC18B1}");
+tocTab[tocTab.length] = new Array("0.3.1.1.3:5", "", "SuscriptorRouter", "EARoot/EA3/EA1/EA1/EA3/EA124.html", "5.png", "E129", "0", "", "Class0","{672BE242-3317-4bcd-A426-F94D5800E4C6}");

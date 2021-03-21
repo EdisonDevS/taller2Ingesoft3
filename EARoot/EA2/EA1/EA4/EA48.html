@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Editor</title>
+<title>CU-1 Aprobar historia</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Editor", " : "))</script>  : Public   Actor</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CU-1 Aprobar historia", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/03/2021 8:03:21 a. m.</td>
+			<td width="85%" class="ObjectDetailsValue">16/03/2021 8:06:07 a. m.</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">16/03/2021 12:53:04 p. m.</td>
+			<td class="ObjectDetailsValue">17/03/2021 5:24:02 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,19 +87,172 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{1EA588A8-B2E8-4ad0-BA63-5D711ADA275F}</td>
+			<td class="ObjectDetailsValue">{DCE945E1-BC76-4fe2-86DA-086B281A05AC}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA9.html">Vista de escenarios</a>, <a href="EA41.html">Edición</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA9.html">Vista de escenarios</a>, <a href="EA45.html">Edición</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Este caso de uso tiene lugar cuando un editor aprueba una historia para su inclusi&#243;n en el sistema de b&#250;squeda de deportes colegiados. Algunas historias se propagar&#225;n autom&#225;ticamente desde el sistema existente, pero algunas historias requerir&#225;n la intervenci&#243;n del editor (ya sea porque su tema no est&#225; claro o porque las categor&#237;as a las que pertenece la historia no est&#225;n claras). Este flujo tambi&#233;n se utiliza para aprobar el contenido publicitario que se publica.&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">El editor debe estar conectado</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints14" onclick="parent.toggleDiv('detailsDIVConstraints14','DetailsImageConstraints14')" />Details:
+							<div id="detailsDIVConstraints14" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El editor debe haber pasado por el proceso de autenticaci&#243;n&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Flujo básico</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario15" onclick="parent.toggleDiv('detailsDIVScenario15','DetailsImageScenario15')" />Details:
+							<div id="detailsDIVScenario15" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Flujo normal para el caso de uso aprobar historia&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario15" onclick="parent.toggleDiv('stepDIVScenario15','StepImageScenario15')" />Steps:
+							<div id="stepDIVScenario15" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El sistema coloca una historia en el flujo de trabajo de &quot;tareas pendientes&quot; del editor&lt;br/&gt; <br />2. El editor ve la historia&lt;br/&gt; <br />3. El editor categoriza la historia y la marca como aprobada&lt;br/&gt; <br />4. El sistema incluye la historia y activa el inicio de los mensajes de búsqueda&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Rechazar contenido</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario17" onclick="parent.toggleDiv('detailsDIVScenario17','DetailsImageScenario17')" />Details:
+							<div id="detailsDIVScenario17" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El editor por alguna raz&#243;n decide no aprobar la historia&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario17" onclick="parent.toggleDiv('stepDIVScenario17','StepImageScenario17')" />Steps:
+							<div id="stepDIVScenario17" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El editor ve la historia&lt;br/&gt; <br />2. El editor marca la historia como rechazada&lt;br/&gt; <br />3. El sistema notifica al creador del contenido que la historia ha sido rechazada&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Modificar contenido</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario19" onclick="parent.toggleDiv('detailsDIVScenario19','DetailsImageScenario19')" />Details:
+							<div id="detailsDIVScenario19" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El editor desea modificar una historia que ya ha sido subida previamente&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario19" onclick="parent.toggleDiv('stepDIVScenario19','StepImageScenario19')" />Steps:
+							<div id="stepDIVScenario19" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El editor selecciona &quot; Modificar historia &quot;&lt;br/&gt; <br />2. El sistema muestra los títulos de todas las historias disponibles&lt;br/&gt; <br />3. El editor selecciona un título específico&lt;br/&gt; <br />4. El sistema muestra las características de la historia&lt;br/&gt; <br />5. Características de las actualizaciones del editor&lt;br/&gt; <br />6. El editor selecciona &quot; Guardar &quot;&lt;br/&gt; <br />7. El sistema vuelve a publicar la historia, lo que activa la actividad de paginación según sea necesario&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Aprobar contenido publicitario</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario21" onclick="parent.toggleDiv('detailsDIVScenario21','DetailsImageScenario21')" />Details:
+							<div id="detailsDIVScenario21" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El editor aprueba un contenido publicitario&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario21" onclick="parent.toggleDiv('stepDIVScenario21','StepImageScenario21')" />Steps:
+							<div id="stepDIVScenario21" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. Aprobar contenido publicitario&lt;br/&gt; <br />2. El editor lo marca como aprobado&lt;br/&gt; <br />3. El sistema incluye el contenido publicitario para mostrar&lt;br/&gt; <br />4. El sistema marca el registro de facturación preliminar como aprobado&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Rechazar contenido publicitario</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario23" onclick="parent.toggleDiv('detailsDIVScenario23','DetailsImageScenario23')" />Details:
+							<div id="detailsDIVScenario23" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El editor rechaza un contenido publicitario y notifica al anunciante&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario23" onclick="parent.toggleDiv('stepDIVScenario23','StepImageScenario23')" />Steps:
+							<div id="stepDIVScenario23" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El editor visualiza el contenido publicitario&lt;br/&gt; <br />2. El editor lo marca como rechazado y proporciona una razón para el rechazo&lt;br/&gt; <br />3. El sistema notifica al anunciante (vía correo electrónico) el rechazo y el motivo&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Historia no visible</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario25" onclick="parent.toggleDiv('detailsDIVScenario25','DetailsImageScenario25')" />Details:
+							<div id="detailsDIVScenario25" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Si la historia ha sido eliminada por otro editor y no se puede ver actualmente, el caso de uso finaliza&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -123,24 +276,17 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA55.html">CU-6 Proporcionar comentarios</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA49.html">CU-8 Enviar contenido</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="10%" class="TableRow" valign="top">Extends</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA44.html">CU-1 Aprobar historia</a></td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA31.html">Usuario</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA33.html">Editor</a></td>
 					<td width="10%" class="TableRow" valign="top">Actor</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

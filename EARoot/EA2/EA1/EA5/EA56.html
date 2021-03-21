@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>CU-7 Leer contenido en un sitio web</title>
+<title>CU-12 Login</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CU-7 Leer contenido en un sitio web", " : "))</script>  : Public   UseCase</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CU-12 Login", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/03/2021 8:27:50 a. m.</td>
+			<td width="85%" class="ObjectDetailsValue">20/03/2021 10:37:41 a. m.</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">17/03/2021 4:51:38 p. m.</td>
+			<td class="ObjectDetailsValue">20/03/2021 10:43:30 a. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,21 +87,52 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{7DC4EB23-72D8-497b-B48B-86C17BFF1199}</td>
+			<td class="ObjectDetailsValue">{2B4641B9-2C9A-41b5-A02F-0470C5A7D455}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA9.html">Vista de escenarios</a>, <a href="EA49.html">Usuario final</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA9.html">Vista de escenarios</a>, <a href="EA52.html">Inicio</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Este caso de uso ocurre cuando un suscriptor activo o un usuario no registrado se conecta al sistema para ver informaci&#243;n.&lt;br/&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
 			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="RequirementsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="60%" class="TableHeading">Requirement</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+					<td width="10%" class="TableHeading">Difficulty</td>
+					<td width="10%" class="TableHeading">Priority</td>
+					<td width="10%" class="TableHeading">Stability</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">Registro</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement38" onclick="parent.toggleDiv('detailsDIVRequirement38','DetailsImageRequirement38')" />Details:
+							<div id="detailsDIVRequirement38" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El usuario se debe encontrar registrado previamente con usuario y contrase&#241;a&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="ScenarioTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -114,35 +145,35 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario48" onclick="parent.toggleDiv('detailsDIVScenario48','DetailsImageScenario48')" />Details:
-							<div id="detailsDIVScenario48" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Flujo normal de la aplicaci&#243;n&lt;br/&gt;</div>
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario39" onclick="parent.toggleDiv('detailsDIVScenario39','DetailsImageScenario39')" />Details:
+							<div id="detailsDIVScenario39" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Flujo normal del caso de uso&lt;br/&gt;</div>
 
 							</div>
 						</div>
-						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario48" onclick="parent.toggleDiv('stepDIVScenario48','StepImageScenario48')" />Steps:
-							<div id="stepDIVScenario48" class="StrucuturedDiv" >
-							<div class="ObjectDetailsNotes">1. El sistema analiza la lista de contenido &quot;archivado&quot;. Para cualquier historia de más de 2 días, la historia se mueve de nuevo a la categoría general.&lt;br/&gt; <br />2. El sistema muestra anuncios publicitarios, categorías de contenido general e historias específicas para las que se han enviado páginas.&lt;br/&gt; <br />3. Suscriptor visualiza historias&lt;br/&gt; <br />4. Para cualquier historia paginada, las historias se marcan como vistas y se colocan en una categoría &quot;archivada&quot;.&lt;br/&gt; <br /></div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario39" onclick="parent.toggleDiv('stepDIVScenario39','StepImageScenario39')" />Steps:
+							<div id="stepDIVScenario39" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. accede a la ventana de login&lt;br/&gt; <br />2. Ingresa usuario y contraseña&lt;br/&gt; <br />3. se le redirecciona a la pagina correspondiente con base en su rol&lt;br/&gt; <br /></div>
 							</div>
 						</div>
 						
 					</td>
 				</tr>
 				<tr>
-					<td width="90%" class="TableRow">El usuario no es un suscriptor registrado</td>
+					<td width="90%" class="TableRow">Credenciales incorrectas</td>
 					<td width="10%" class="TableRow">Alternate</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario50" onclick="parent.toggleDiv('detailsDIVScenario50','DetailsImageScenario50')" />Details:
-							<div id="detailsDIVScenario50" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">El usuario no ha pagado la suscripci&#243;n&lt;br/&gt;</div>
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario41" onclick="parent.toggleDiv('detailsDIVScenario41','DetailsImageScenario41')" />Details:
+							<div id="detailsDIVScenario41" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El usuario introduce credenciales incorrectas&lt;br/&gt;</div>
 
 							</div>
 						</div>
-						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario50" onclick="parent.toggleDiv('stepDIVScenario50','StepImageScenario50')" />Steps:
-							<div id="stepDIVScenario50" class="StrucuturedDiv" >
-							<div class="ObjectDetailsNotes">1. El sistema muestra anuncios publicitarios y categorías de contenido general&lt;br/&gt; <br />2. El sistema brinda la opción para que el usuario se suscriba&lt;br/&gt; <br />3. Historias de visitas de usuarios&lt;br/&gt; <br /></div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario41" onclick="parent.toggleDiv('stepDIVScenario41','StepImageScenario41')" />Steps:
+							<div id="stepDIVScenario41" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. accede a la ventana de login&lt;br/&gt; <br />2. ingresa su usuario y contraseña&lt;br/&gt; <br />3. el usuario o contraseña es incorrecto&lt;br/&gt; <br />4. se muestra mensaje de error&lt;br/&gt; <br /></div>
 							</div>
 						</div>
 						
@@ -174,14 +205,21 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA57.html">Suscriptor</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA34.html">Suscriptor</a></td>
 					<td width="10%" class="TableRow" valign="top">Actor</td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA58.html">Suscriptor potencial</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA32.html">Anunciante</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA33.html">Editor</a></td>
 					<td width="10%" class="TableRow" valign="top">Actor</td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
