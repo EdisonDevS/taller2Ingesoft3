@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Servicios::EditorService</title>
+<title>EditorService</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">20/03/2021 10:48:55 a. m.</td>
+			<td class="ObjectDetailsValue">22/03/2021 2:49:29 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,7 +94,8 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="../EA137.html">FrontEnd - Diagrama general de clases</a>, <a href="EA158.html">Servicios</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Servicio encargado de la comunicaci&#243;n con el backend para la gesti&#243;n de recursos del editor&lt;br/&gt;&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
@@ -125,7 +126,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Llama al endpoint para la alimentaci&#243;n de un listado de tareas pendientes por revisi&#243;n (historias y anuncios)&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -187,7 +198,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Llama al endpoint para la categorizacion de un contenido (Anuncio o historia) con un listado de las categor&#237;as que se le desean asignar&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -214,6 +235,63 @@ function nameClassifier(name, separator)
 							<td></td>
 						</tr>
 					</table>
+					<a href="#" onclick="parent.toggleData('param{D9E0B1A9-E642-4d29-8BC0-668EAB00B130}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{D9E0B1A9-E642-4d29-8BC0-668EAB00B130}" border="0" />nuevoTitulo?: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{D9E0B1A9-E642-4d29-8BC0-668EAB00B130}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D9E0B1A9-E642-4d29-8BC0-668EAB00B130}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{D9E0B1A9-E642-4d29-8BC0-668EAB00B130}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{D9E0B1A9-E642-4d29-8BC0-668EAB00B130}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{F37EEE4E-F814-4f74-8926-CC34015C6CC2}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{F37EEE4E-F814-4f74-8926-CC34015C6CC2}" border="0" />nuevoEstado?: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{F37EEE4E-F814-4f74-8926-CC34015C6CC2}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{F37EEE4E-F814-4f74-8926-CC34015C6CC2}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{F37EEE4E-F814-4f74-8926-CC34015C6CC2}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{F37EEE4E-F814-4f74-8926-CC34015C6CC2}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{5D1B0280-0D93-4c34-8AE2-28DB4E254DFA}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{5D1B0280-0D93-4c34-8AE2-28DB4E254DFA}" border="0" />nuevaImagen?: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{5D1B0280-0D93-4c34-8AE2-28DB4E254DFA}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5D1B0280-0D93-4c34-8AE2-28DB4E254DFA}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{5D1B0280-0D93-4c34-8AE2-28DB4E254DFA}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5D1B0280-0D93-4c34-8AE2-28DB4E254DFA}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
 ):boolean
 				</td>
 			</tr>
@@ -230,7 +308,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Llama al endpoint para la actualizaci&#243;n de un contenido (historia o anuncio) pasando los datos nuevos que se le asignar&#225;n al contenido de este&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -273,7 +361,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Llama al endpoint para la creaci&#243;n de un nuevo contenido&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
