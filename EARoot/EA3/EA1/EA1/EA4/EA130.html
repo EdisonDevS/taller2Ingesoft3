@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>AuthService</title>
+<title>Services::AuthService</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">21/03/2021 10:13:22 p. m.</td>
+			<td class="ObjectDetailsValue">21/03/2021 11:16:12 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,7 +94,8 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="../EA88.html">Backend - Diagrama general de clases</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Servicio para los metodos de autenticacion inicial y registro de los diferentes usuarios del sistema&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
@@ -109,7 +110,45 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>loginAnunciante</strong>():void
+					<strong>loginAnunciante</strong>(					<a href="#" onclick="parent.toggleData('param{64F6863D-41D4-4e51-A4BF-87F31F47A584}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{64F6863D-41D4-4e51-A4BF-87F31F47A584}" border="0" />usuario: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{64F6863D-41D4-4e51-A4BF-87F31F47A584}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{64F6863D-41D4-4e51-A4BF-87F31F47A584}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{64F6863D-41D4-4e51-A4BF-87F31F47A584}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{64F6863D-41D4-4e51-A4BF-87F31F47A584}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{5CE5ABCD-DD9A-45b1-8952-9B46583E61B5}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{5CE5ABCD-DD9A-45b1-8952-9B46583E61B5}" border="0" />contrasena: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{5CE5ABCD-DD9A-45b1-8952-9B46583E61B5}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5CE5ABCD-DD9A-45b1-8952-9B46583E61B5}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{5CE5ABCD-DD9A-45b1-8952-9B46583E61B5}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5CE5ABCD-DD9A-45b1-8952-9B46583E61B5}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
@@ -125,7 +164,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			M&#233;todo de login para los anunciantes, este si el proceso es exitoso retorna firma un token JWT y lo retorna al frontend para posteriores autenticaciones haciendo uso del mismo&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -133,7 +182,45 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>loginEditor</strong>():void
+					<strong>loginEditor</strong>(					<a href="#" onclick="parent.toggleData('param{9917EC14-5C16-4110-BA38-76090C91B252}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{9917EC14-5C16-4110-BA38-76090C91B252}" border="0" />usuario: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{9917EC14-5C16-4110-BA38-76090C91B252}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9917EC14-5C16-4110-BA38-76090C91B252}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{9917EC14-5C16-4110-BA38-76090C91B252}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9917EC14-5C16-4110-BA38-76090C91B252}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{04B6BD55-2F4F-4c68-86B9-24539E825764}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{04B6BD55-2F4F-4c68-86B9-24539E825764}" border="0" />contrasena: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{04B6BD55-2F4F-4c68-86B9-24539E825764}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{04B6BD55-2F4F-4c68-86B9-24539E825764}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{04B6BD55-2F4F-4c68-86B9-24539E825764}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{04B6BD55-2F4F-4c68-86B9-24539E825764}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
@@ -149,7 +236,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			M&#233;todo de login para los editores, este si el proceso es exitoso retorna firma un token JWT y lo retorna al frontend para posteriores autenticaciones haciendo uso del mismo&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -157,7 +254,45 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>loginSuscriptor</strong>():void
+					<strong>loginSuscriptor</strong>(					<a href="#" onclick="parent.toggleData('param{36FCDDC2-FD1E-4f3a-9FC4-EE52624BB5CB}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{36FCDDC2-FD1E-4f3a-9FC4-EE52624BB5CB}" border="0" />usuario: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{36FCDDC2-FD1E-4f3a-9FC4-EE52624BB5CB}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{36FCDDC2-FD1E-4f3a-9FC4-EE52624BB5CB}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{36FCDDC2-FD1E-4f3a-9FC4-EE52624BB5CB}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{36FCDDC2-FD1E-4f3a-9FC4-EE52624BB5CB}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{C010DD76-DB3E-4964-8334-45866E8E4505}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{C010DD76-DB3E-4964-8334-45866E8E4505}" border="0" />contrasena: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C010DD76-DB3E-4964-8334-45866E8E4505}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C010DD76-DB3E-4964-8334-45866E8E4505}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C010DD76-DB3E-4964-8334-45866E8E4505}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C010DD76-DB3E-4964-8334-45866E8E4505}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
@@ -173,7 +308,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			M&#233;todo de login para los suscriptores, este si el proceso es exitoso retorna firma un token JWT y lo retorna al frontend para posteriores autenticaciones haciendo uso del mismo&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -181,7 +326,102 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>registroSuscriptor</strong>():void
+					<strong>registroSuscriptor</strong>(					<a href="#" onclick="parent.toggleData('param{67A7309F-1A02-48c5-84F0-E02AC707254F}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{67A7309F-1A02-48c5-84F0-E02AC707254F}" border="0" />usuario: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{67A7309F-1A02-48c5-84F0-E02AC707254F}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{67A7309F-1A02-48c5-84F0-E02AC707254F}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{67A7309F-1A02-48c5-84F0-E02AC707254F}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{67A7309F-1A02-48c5-84F0-E02AC707254F}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{193AC41B-376F-4dc6-A93D-E2A12126CA4C}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{193AC41B-376F-4dc6-A93D-E2A12126CA4C}" border="0" />contrasena: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{193AC41B-376F-4dc6-A93D-E2A12126CA4C}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{193AC41B-376F-4dc6-A93D-E2A12126CA4C}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{193AC41B-376F-4dc6-A93D-E2A12126CA4C}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{193AC41B-376F-4dc6-A93D-E2A12126CA4C}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{691A9580-12B6-409e-9A01-79F69CC539FD}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{691A9580-12B6-409e-9A01-79F69CC539FD}" border="0" />nombres: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{691A9580-12B6-409e-9A01-79F69CC539FD}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{691A9580-12B6-409e-9A01-79F69CC539FD}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{691A9580-12B6-409e-9A01-79F69CC539FD}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{691A9580-12B6-409e-9A01-79F69CC539FD}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{4AA28A21-F8AA-43dc-A373-905459C6A1BB}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{4AA28A21-F8AA-43dc-A373-905459C6A1BB}" border="0" />email: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{4AA28A21-F8AA-43dc-A373-905459C6A1BB}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{4AA28A21-F8AA-43dc-A373-905459C6A1BB}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{4AA28A21-F8AA-43dc-A373-905459C6A1BB}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{4AA28A21-F8AA-43dc-A373-905459C6A1BB}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{0A9ED942-486F-4fb6-B9DC-C45EC80147A6}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{0A9ED942-486F-4fb6-B9DC-C45EC80147A6}" border="0" />telefono: int</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{0A9ED942-486F-4fb6-B9DC-C45EC80147A6}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0A9ED942-486F-4fb6-B9DC-C45EC80147A6}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{0A9ED942-486F-4fb6-B9DC-C45EC80147A6}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0A9ED942-486F-4fb6-B9DC-C45EC80147A6}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
@@ -197,7 +437,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			M&#233;todo de registro para los suscriptores del sistema, al finalizar el registro, al igual que los m&#233;todos de login, se retorna un JWT firmado para el backend para la inmediata autenticaci&#243;n con el usuario reci&#233;n creado&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>

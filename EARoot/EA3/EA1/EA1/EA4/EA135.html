@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>SuscriptorService</title>
+<title>Services::SuscriptorService</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">20/03/2021 7:50:20 p. m.</td>
+			<td class="ObjectDetailsValue">21/03/2021 11:29:37 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,7 +94,8 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="../EA88.html">Backend - Diagrama general de clases</a>, <a href="EA126.html">Services</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Servicio encargado de la l&#243;gica de negocio del suscriptor final de la aplicaci&#243;n&lt;br/&gt;&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
@@ -109,7 +110,83 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>actualizarPerfil</strong>():void
+					<strong>actualizarPerfil</strong>(					<a href="#" onclick="parent.toggleData('param{0BB3D0A4-28BF-45ec-847C-9777579A4129}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{0BB3D0A4-28BF-45ec-847C-9777579A4129}" border="0" />email?: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{0BB3D0A4-28BF-45ec-847C-9777579A4129}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0BB3D0A4-28BF-45ec-847C-9777579A4129}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{0BB3D0A4-28BF-45ec-847C-9777579A4129}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0BB3D0A4-28BF-45ec-847C-9777579A4129}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{534FA883-8726-47ec-9DA3-A0651F851037}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{534FA883-8726-47ec-9DA3-A0651F851037}" border="0" />nombres?: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{534FA883-8726-47ec-9DA3-A0651F851037}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{534FA883-8726-47ec-9DA3-A0651F851037}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{534FA883-8726-47ec-9DA3-A0651F851037}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{534FA883-8726-47ec-9DA3-A0651F851037}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{AD460227-7B0F-4408-A587-B406B3C7909E}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{AD460227-7B0F-4408-A587-B406B3C7909E}" border="0" />telefono?: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{AD460227-7B0F-4408-A587-B406B3C7909E}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{AD460227-7B0F-4408-A587-B406B3C7909E}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{AD460227-7B0F-4408-A587-B406B3C7909E}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{AD460227-7B0F-4408-A587-B406B3C7909E}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{C5C6D4E4-59F7-44a4-98A7-8DC3F2F9203E}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{C5C6D4E4-59F7-44a4-98A7-8DC3F2F9203E}" border="0" />preferencias?: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C5C6D4E4-59F7-44a4-98A7-8DC3F2F9203E}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C5C6D4E4-59F7-44a4-98A7-8DC3F2F9203E}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C5C6D4E4-59F7-44a4-98A7-8DC3F2F9203E}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C5C6D4E4-59F7-44a4-98A7-8DC3F2F9203E}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
@@ -125,7 +202,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			recibe los datos con los que el suscriptor desea que se le muestre en su perfil personal, adem&#225;s de un listado con las posibles categor&#237;as (preferencias) que a este puedan interesarle para posteriormente realizar sugerencias de contenido&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -149,7 +236,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			lista los contenidos que se le mostrar&#225;n en el feed de noticias de la aplicaci&#243;n&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>

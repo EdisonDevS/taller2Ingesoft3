@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>AuthMiddleware</title>
+<title>Middlewares::AuthMiddleware</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">20/03/2021 7:51:11 p. m.</td>
+			<td class="ObjectDetailsValue">21/03/2021 11:38:29 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,7 +94,8 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="../EA88.html">Backend - Diagrama general de clases</a>, <a href="EA98.html">Middlewares</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Middleware basado en passport encargado de la validaci&#243;n de la autenticaci&#243;n por JWT para restringir el acceso a los servicios desde los routers respectivos&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
@@ -109,7 +110,26 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>localStrategy</strong>():void
+					<strong>localStrategy</strong>(					<a href="#" onclick="parent.toggleData('param{A22BF6DD-66E3-4af8-8656-B9BBE552AC64}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{A22BF6DD-66E3-4af8-8656-B9BBE552AC64}" border="0" />tipo_autenticacion: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{A22BF6DD-66E3-4af8-8656-B9BBE552AC64}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A22BF6DD-66E3-4af8-8656-B9BBE552AC64}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{A22BF6DD-66E3-4af8-8656-B9BBE552AC64}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A22BF6DD-66E3-4af8-8656-B9BBE552AC64}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
@@ -125,7 +145,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			metodo de estrategia local de passport que define la autenticaci&#243;n basandose en el tipo de autenticaci&#243;n que recibe como parametro&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>FacturacionService</title>
+<title>Services::FacturacionService</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">20/03/2021 7:50:24 p. m.</td>
+			<td class="ObjectDetailsValue">21/03/2021 11:31:52 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,7 +94,8 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="../EA88.html">Backend - Diagrama general de clases</a>, <a href="EA126.html">Services</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Servicio para la pasarela de pago usada con el fin de validar los estados de las transacciones para la posterior aprobaci&#243;n y actualizaci&#243;n de las suscripciones de los distintos tipos de usuarios&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
@@ -109,7 +110,45 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>suscripcionAnunciante</strong>():void
+					<strong>suscripcionUsuarioSuscriptor</strong>(					<a href="#" onclick="parent.toggleData('param{74046088-D248-4d98-986B-5FEB5AA2BAEF}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{74046088-D248-4d98-986B-5FEB5AA2BAEF}" border="0" />usuario_id: uuid</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{74046088-D248-4d98-986B-5FEB5AA2BAEF}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{74046088-D248-4d98-986B-5FEB5AA2BAEF}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{74046088-D248-4d98-986B-5FEB5AA2BAEF}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{74046088-D248-4d98-986B-5FEB5AA2BAEF}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{F3121B59-BF68-4892-BB3C-6E40D15AE13F}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{F3121B59-BF68-4892-BB3C-6E40D15AE13F}" border="0" />estado: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{F3121B59-BF68-4892-BB3C-6E40D15AE13F}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{F3121B59-BF68-4892-BB3C-6E40D15AE13F}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{F3121B59-BF68-4892-BB3C-6E40D15AE13F}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{F3121B59-BF68-4892-BB3C-6E40D15AE13F}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
@@ -125,7 +164,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			metodo para la validaci&#243;n del estado y aprobaci&#243;n de suscripci&#243;n de los usuarios suscriptores&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -133,7 +182,45 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>suscripcionUsuario</strong>():void
+					<strong>suscripcionAnunciante</strong>(					<a href="#" onclick="parent.toggleData('param{289CAEF3-A827-4640-9A8D-947CFC46DC98}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{289CAEF3-A827-4640-9A8D-947CFC46DC98}" border="0" />usuario_id: uuid</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{289CAEF3-A827-4640-9A8D-947CFC46DC98}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{289CAEF3-A827-4640-9A8D-947CFC46DC98}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{289CAEF3-A827-4640-9A8D-947CFC46DC98}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{289CAEF3-A827-4640-9A8D-947CFC46DC98}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{413DD489-8062-4278-80F0-3C0A62F64C19}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{413DD489-8062-4278-80F0-3C0A62F64C19}" border="0" />estado: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{413DD489-8062-4278-80F0-3C0A62F64C19}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{413DD489-8062-4278-80F0-3C0A62F64C19}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{413DD489-8062-4278-80F0-3C0A62F64C19}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{413DD489-8062-4278-80F0-3C0A62F64C19}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
@@ -149,7 +236,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			metodo para la validaci&#243;n del estado y aprobaci&#243;n de suscripci&#243;n de los usuarios anunciantes&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>

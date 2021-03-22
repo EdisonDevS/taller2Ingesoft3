@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>AnuncianteRouter</title>
+<title>Routers::AnuncianteRouter</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">20/03/2021 7:48:55 p. m.</td>
+			<td class="ObjectDetailsValue">21/03/2021 10:23:38 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,7 +94,8 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="../EA88.html">Backend - Diagrama general de clases</a>, <a href="EA118.html">Routers</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Router destinado a cubrir los recursos accesibles para los anunciantes de la aplicaci&#243;n&lt;br/&gt;&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
@@ -109,14 +110,14 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>login</strong>():JSON
+					<strong>obtener_anuncios</strong>():JSON
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations115" onclick="parent.toggleDiv('detailsDIVOperations115','DetailsImageOperations115')" />Details:
 						<div id="detailsDIVOperations115" class="DetailsDiv" >
-					<i>Sequential &lt;&lt;POST&gt;&gt; </i>
+					<i>Sequential &lt;&lt;GET&gt;&gt; </i>
 					<table>
 						<tr>
 							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
@@ -125,7 +126,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			endpoint para listar los anuncios correspondientes al anunciante autenticado&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -133,7 +144,45 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>obtener_anuncios</strong>():JSON
+					<strong>obtener_informe</strong>(					<a href="#" onclick="parent.toggleData('param{645E35A8-80A2-4ec5-B4E9-32576BF8AC14}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{645E35A8-80A2-4ec5-B4E9-32576BF8AC14}" border="0" />anuncio_id: uuid</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{645E35A8-80A2-4ec5-B4E9-32576BF8AC14}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{645E35A8-80A2-4ec5-B4E9-32576BF8AC14}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{645E35A8-80A2-4ec5-B4E9-32576BF8AC14}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{645E35A8-80A2-4ec5-B4E9-32576BF8AC14}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{34061B9D-6878-4c16-80C6-9BB780DB566D}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{34061B9D-6878-4c16-80C6-9BB780DB566D}" border="0" />tipo_informe: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{34061B9D-6878-4c16-80C6-9BB780DB566D}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{34061B9D-6878-4c16-80C6-9BB780DB566D}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{34061B9D-6878-4c16-80C6-9BB780DB566D}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{34061B9D-6878-4c16-80C6-9BB780DB566D}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):JSON
 				</td>
 			</tr>
 			<tr>
@@ -149,7 +198,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			endpoint para la obtenci&#243;n de los informes, este recibir&#225; el tipo de informe y el uuid del anuncio del cual quiere obtener dicho informe&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -157,14 +216,52 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>obtener_informe</strong>():JSON
+					<strong>suscripcion</strong>(					<a href="#" onclick="parent.toggleData('param{B2EDCACB-2703-41c0-A622-8C63DF5DA6A4}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{B2EDCACB-2703-41c0-A622-8C63DF5DA6A4}" border="0" />usuario_id: uuid</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{B2EDCACB-2703-41c0-A622-8C63DF5DA6A4}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B2EDCACB-2703-41c0-A622-8C63DF5DA6A4}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{B2EDCACB-2703-41c0-A622-8C63DF5DA6A4}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B2EDCACB-2703-41c0-A622-8C63DF5DA6A4}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{00048223-8BF1-4a52-92A0-5902FCCF13AA}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{00048223-8BF1-4a52-92A0-5902FCCF13AA}" border="0" />estado: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{00048223-8BF1-4a52-92A0-5902FCCF13AA}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{00048223-8BF1-4a52-92A0-5902FCCF13AA}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{00048223-8BF1-4a52-92A0-5902FCCF13AA}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{00048223-8BF1-4a52-92A0-5902FCCF13AA}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations117" onclick="parent.toggleDiv('detailsDIVOperations117','DetailsImageOperations117')" />Details:
 						<div id="detailsDIVOperations117" class="DetailsDiv" >
-					<i>Sequential &lt;&lt;GET&gt;&gt; </i>
+					<i>Sequential &lt;&lt;POST&gt;&gt; </i>
 					<table>
 						<tr>
 							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
@@ -173,7 +270,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			endpoint para el sistema externo de facturaci&#243;n (pasarela de pago) donde se notificar&#225; el estado de un pago cada que este cambie hasta lograr el &#233;xito del mismo y activar la suscripci&#243;n del usuario&lt;br/&gt;&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>
@@ -181,7 +288,45 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>suscripcion</strong>():void
+					<strong>login</strong>(					<a href="#" onclick="parent.toggleData('param{9B3AC72D-D7B3-4902-A1E5-AACF664E1B76}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{9B3AC72D-D7B3-4902-A1E5-AACF664E1B76}" border="0" />usuario: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{9B3AC72D-D7B3-4902-A1E5-AACF664E1B76}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9B3AC72D-D7B3-4902-A1E5-AACF664E1B76}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{9B3AC72D-D7B3-4902-A1E5-AACF664E1B76}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9B3AC72D-D7B3-4902-A1E5-AACF664E1B76}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{98B33732-974A-433f-A0DE-07952AB64DDC}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{98B33732-974A-433f-A0DE-07952AB64DDC}" border="0" />contrasena: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{98B33732-974A-433f-A0DE-07952AB64DDC}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{98B33732-974A-433f-A0DE-07952AB64DDC}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{98B33732-974A-433f-A0DE-07952AB64DDC}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{98B33732-974A-433f-A0DE-07952AB64DDC}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):JSON
 				</td>
 			</tr>
 			<tr>
@@ -197,7 +342,17 @@ function nameClassifier(name, separator)
 					</table>
 					
 					
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			endpoint para la autenticaci&#243;n de los anunciantes con su respectivo usuario y contrase&#241;a, posterior a esto la autenticaci&#243;n se har&#225; mediante JWT&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						</div>
 					</div>
 				</td>

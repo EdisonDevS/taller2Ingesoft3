@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Contenido</title>
+<title>Modelos::Contenido</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -157,7 +157,7 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Private string</i><br /><strong>&nbsp;&nbsp;Estado</strong>
+					<i>Private string</i><br /><strong>&nbsp;&nbsp;Titulo</strong>
 				</td>
 			</tr>
 			<tr>
@@ -205,7 +205,7 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Private date</i><br /><strong>&nbsp;&nbsp;FechaPublicacion</strong>
+					<i>Private string</i><br /><strong>&nbsp;&nbsp;Estado</strong>
 				</td>
 			</tr>
 			<tr>
@@ -253,7 +253,7 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Private string</i><br /><strong>&nbsp;&nbsp;Titulo</strong>
+					<i>Private date</i><br /><strong>&nbsp;&nbsp;FechaPublicacion</strong>
 				</td>
 			</tr>
 			<tr>
@@ -310,37 +310,18 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>agregarCategoria</strong>(					<a href="#" onclick="parent.toggleData('param{A265DF59-0D63-47a4-83F2-6A793259CFE4}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}" border="0" />Categoria: string</a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>in</td>
-						</tr>
-						<tr id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):void
+					<strong>getFechaPublicacion</strong>():date
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations183" onclick="parent.toggleDiv('detailsDIVOperations183','DetailsImageOperations183')" />Details:
 						<div id="detailsDIVOperations183" class="DetailsDiv" >
-					<i>Sequential  </i>
+					<i>Sequential &lt;&lt;property get&gt;&gt; </i>
 					<table>
 						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>attribute_name=FechaPublicacion<br/></td>
 						</tr>
 					</table>
 					
@@ -353,18 +334,37 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>getCategorias</strong>():string
+					<strong>setFechaPublicacion</strong>(					<a href="#" onclick="parent.toggleData('param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}" border="0" />newVal: date</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations184" onclick="parent.toggleDiv('detailsDIVOperations184','DetailsImageOperations184')" />Details:
 						<div id="detailsDIVOperations184" class="DetailsDiv" >
-					<i>Sequential &lt;&lt;property get&gt;&gt; </i>
+					<i>Sequential &lt;&lt;property set&gt;&gt; </i>
 					<table>
 						<tr>
 							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
-							<td>attribute_name=Categorias<br/></td>
+							<td>attribute_name=FechaPublicacion<br/></td>
 						</tr>
 					</table>
 					
@@ -401,37 +401,13 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>getFechaPublicacion</strong>():date
+					<strong>getTitulo</strong>():string
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
 					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations186" onclick="parent.toggleDiv('detailsDIVOperations186','DetailsImageOperations186')" />Details:
 						<div id="detailsDIVOperations186" class="DetailsDiv" >
-					<i>Sequential &lt;&lt;property get&gt;&gt; </i>
-					<table>
-						<tr>
-							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
-							<td>attribute_name=FechaPublicacion<br/></td>
-						</tr>
-					</table>
-					
-					
-					
-						</div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public</i><br />
-					<strong>getTitulo</strong>():string
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations187" onclick="parent.toggleDiv('detailsDIVOperations187','DetailsImageOperations187')" />Details:
-						<div id="detailsDIVOperations187" class="DetailsDiv" >
 					<i>Sequential &lt;&lt;property get&gt;&gt; </i>
 					<table>
 						<tr>
@@ -473,56 +449,13 @@ function nameClassifier(name, separator)
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations188" onclick="parent.toggleDiv('detailsDIVOperations188','DetailsImageOperations188')" />Details:
-						<div id="detailsDIVOperations188" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations187" onclick="parent.toggleDiv('detailsDIVOperations187','DetailsImageOperations187')" />Details:
+						<div id="detailsDIVOperations187" class="DetailsDiv" >
 					<i>Sequential &lt;&lt;property set&gt;&gt; </i>
 					<table>
 						<tr>
 							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
 							<td>attribute_name=Estado<br/></td>
-						</tr>
-					</table>
-					
-					
-					
-						</div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public</i><br />
-					<strong>setFechaPublicacion</strong>(					<a href="#" onclick="parent.toggleData('param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}" border="0" />newVal: date</a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>in</td>
-						</tr>
-						<tr id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{82AE3CC7-48C9-41ec-B394-CB65EB8A6716}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):void
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations189" onclick="parent.toggleDiv('detailsDIVOperations189','DetailsImageOperations189')" />Details:
-						<div id="detailsDIVOperations189" class="DetailsDiv" >
-					<i>Sequential &lt;&lt;property set&gt;&gt; </i>
-					<table>
-						<tr>
-							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
-							<td>attribute_name=FechaPublicacion<br/></td>
 						</tr>
 					</table>
 					
@@ -559,13 +492,80 @@ function nameClassifier(name, separator)
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations190" onclick="parent.toggleDiv('detailsDIVOperations190','DetailsImageOperations190')" />Details:
-						<div id="detailsDIVOperations190" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations188" onclick="parent.toggleDiv('detailsDIVOperations188','DetailsImageOperations188')" />Details:
+						<div id="detailsDIVOperations188" class="DetailsDiv" >
 					<i>Sequential &lt;&lt;property set&gt;&gt; </i>
 					<table>
 						<tr>
 							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
 							<td>attribute_name=Titulo<br/></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>agregarCategoria</strong>(					<a href="#" onclick="parent.toggleData('param{A265DF59-0D63-47a4-83F2-6A793259CFE4}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}" border="0" />Categoria: string</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A265DF59-0D63-47a4-83F2-6A793259CFE4}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):void
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations189" onclick="parent.toggleDiv('detailsDIVOperations189','DetailsImageOperations189')" />Details:
+						<div id="detailsDIVOperations189" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>getCategorias</strong>():string
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations190" onclick="parent.toggleDiv('detailsDIVOperations190','DetailsImageOperations190')" />Details:
+						<div id="detailsDIVOperations190" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;property get&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i>Tags:</i><span style="margin-left: .7cm;"> </span></td>
+							<td>attribute_name=Categorias<br/></td>
 						</tr>
 					</table>
 					
