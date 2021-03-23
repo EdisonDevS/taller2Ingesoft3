@@ -1,4 +1,5 @@
 tocTab[tocTab.length] = new Array("0.2.1.2:1", "", "Anuncios", "EARoot/EA2/EA1/EA2/EA37.html", "180.png", "9", "0", "", "Use Case diagram0","{3E67B94A-4825-4eef-AB97-CDF389A42E38}");
 tocTab[tocTab.length] = new Array("0.2.1.2:2", "", "CU-4 Informes impresos de anunciantes", "EARoot/EA2/EA1/EA2/EA41.html", "7.png", "E16", "0", "", "UseCase0","{24C62806-D8F2-4848-8CDA-C0DDA1A65E00}");
 tocTab[tocTab.length] = new Array("0.2.1.2:3", "", "CU-5 Publicar contenido publicitario", "EARoot/EA2/EA1/EA2/EA42.html", "7.png", "E17", "0", "", "UseCase0","{58635EB8-9543-4311-BE67-6B5325FA2D2C}");
-tocTab[tocTab.length] = new Array("0.2.1.2:4", "", "CU-6 Proporcionar comentarios", "EARoot/EA2/EA1/EA2/EA43.html", "7.png", "E42", "0", "", "UseCase0","{91BF116D-26FE-450a-9EC5-91FD8A75B56D}");
+tocTab[tocTab.length] = new Array("0.2.1.2:4", "", "Anunciante", "EARoot/EA2/EA1/EA2/EA43.html", "6.png", "E182", "0", "", "Actor0","{8516600E-251B-43b9-B2E7-CDF23524816D}");
+tocTab[tocTab.length] = new Array("0.2.1.2:5", "", "CU-6 Proporcionar comentarios", "EARoot/EA2/EA1/EA2/EA44.html", "7.png", "E42", "0", "", "UseCase0","{91BF116D-26FE-450a-9EC5-91FD8A75B56D}");

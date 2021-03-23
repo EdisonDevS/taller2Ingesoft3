@@ -1,3 +1,7 @@
-tocTab[tocTab.length] = new Array("0.2.1.5:1", "", "Inicio", "EARoot/EA2/EA1/EA5/EA52.html", "180.png", "17", "0", "", "Use Case diagram0","{7591D5FE-3D2A-4500-B770-DCE53A894A2C}");
-tocTab[tocTab.length] = new Array("0.2.1.5:2", "", "CU-11 Registro", "EARoot/EA2/EA1/EA5/EA55.html", "7.png", "E116", "0", "", "UseCase0","{DF70A73C-8F57-4f5f-9E74-09F22BCA9C81}");
-tocTab[tocTab.length] = new Array("0.2.1.5:3", "", "CU-12 Login", "EARoot/EA2/EA1/EA5/EA56.html", "7.png", "E115", "0", "", "UseCase0","{2B4641B9-2C9A-41b5-A02F-0470C5A7D455}");
+tocTab[tocTab.length] = new Array("0.2.1.5:1", "", "Inicio", "EARoot/EA2/EA1/EA5/EA54.html", "180.png", "17", "0", "", "Use Case diagram0","{7591D5FE-3D2A-4500-B770-DCE53A894A2C}");
+tocTab[tocTab.length] = new Array("0.2.1.5:2", "", "CU-11 Registro", "EARoot/EA2/EA1/EA5/EA57.html", "7.png", "E116", "0", "", "UseCase0","{DF70A73C-8F57-4f5f-9E74-09F22BCA9C81}");
+tocTab[tocTab.length] = new Array("0.2.1.5:3", "", "CU-12 Login", "EARoot/EA2/EA1/EA5/EA58.html", "7.png", "E115", "0", "", "UseCase0","{2B4641B9-2C9A-41b5-A02F-0470C5A7D455}");
+tocTab[tocTab.length] = new Array("0.2.1.5:4", "", "Anunciante", "EARoot/EA2/EA1/EA5/EA60.html", "6.png", "E186", "0", "", "Actor0","{31EB9E80-630C-43cd-B3F6-960384260F25}");
+tocTab[tocTab.length] = new Array("0.2.1.5:5", "", "Editor", "EARoot/EA2/EA1/EA5/EA61.html", "6.png", "E188", "0", "", "Actor0","{D977DA9A-67D9-4622-8E29-F872E05453D3}");
+tocTab[tocTab.length] = new Array("0.2.1.5:6", "", "Suscriptor", "EARoot/EA2/EA1/EA5/EA62.html", "6.png", "E190", "0", "", "Actor0","{8D950D04-82C8-4744-A312-29728BFEEBF7}");
+tocTab[tocTab.length] = new Array("0.2.1.5:7", "", "Suscriptor potencial", "EARoot/EA2/EA1/EA5/EA63.html", "6.png", "E192", "0", "", "Actor0","{6109A7FE-B4E4-4a1f-B5DE-28F8263C7552}");

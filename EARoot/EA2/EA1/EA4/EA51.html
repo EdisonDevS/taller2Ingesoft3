@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Edicion</title>
+<title>CU-9 Enviar página</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Edicion", " : "))</script>  : Public   Boundary</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CU-9 Enviar página", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/03/2021 8:05:13 a. m.</td>
+			<td width="85%" class="ObjectDetailsValue">16/03/2021 8:43:03 a. m.</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">16/03/2021 8:18:36 a. m.</td>
+			<td class="ObjectDetailsValue">17/03/2021 5:45:29 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,14 +87,139 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{33BA1B02-4E5D-41db-9302-69CF08C886E5}</td>
+			<td class="ObjectDetailsValue">{AB5ECC23-FAB7-4495-9E57-2342A4A7D648}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA45.html">Edición</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA9.html">Vista de escenarios</a>, <a href="EA46.html">Edición</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Este caso de uso ocurre cuando se publica contenido nuevo en el sistema de b&#250;squeda de deportes universitarios&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">El contenido está publicado</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints30" onclick="parent.toggleDiv('detailsDIVConstraints30','DetailsImageConstraints30')" />Details:
+							<div id="detailsDIVConstraints30" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">El contenido ha pasado por el proceso de aprovaci&#243;n del editor satisfactoriamente&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">el título está disponible</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints31" onclick="parent.toggleDiv('detailsDIVConstraints31','DetailsImageConstraints31')" />Details:
+							<div id="detailsDIVConstraints31" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Se provee un titulo para el contenido&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">la categorización está disponible</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints32" onclick="parent.toggleDiv('detailsDIVConstraints32','DetailsImageConstraints32')" />Details:
+							<div id="detailsDIVConstraints32" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">el contenido ha sido clasificado en las categor&#237;as correspondientes a este&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Flujo básico</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario33" onclick="parent.toggleDiv('detailsDIVScenario33','DetailsImageScenario33')" />Details:
+							<div id="detailsDIVScenario33" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Flujo normal del caso de uso&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario33" onclick="parent.toggleDiv('stepDIVScenario33','StepImageScenario33')" />Steps:
+							<div id="stepDIVScenario33" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El sistema verifica las categorías para el nuevo contenido&lt;br/&gt; <br />2. El sistema verifica las listas de suscriptores para determinar si algún suscriptor desea ser localizado para esta categoría de contenido&lt;br/&gt; <br />3. El sistema genera un mensaje de texto basado en el título&lt;br/&gt; <br />4. El sistema construye una serie de mensajes de correo electrónico&lt;br/&gt; <br />5. El sistema envía mensajes de correo electrónico a los suscriptores (quienes los recibirán como una página alfanumérica)&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA50.html">CU-8 Enviar contenido</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Includes</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>
